@@ -34,9 +34,9 @@ Making the Data Viewer Skeleton
 When starting to learn how to use Glue, the many technical terms might seem confusing. 
 
 * DataViewer -  The default class used in making a Data Viewer (2d plot, Histogram, TableViewer, etc)
-* LayerArtist - 
-* ViewerState - 
-* LayerState - 
+* LayerArtist - A class to draw layers of viewer, including logic about converting data/subsets into layers
+* ViewerState - A class for the conceptual state of the viewer: what to show rather than how to show it
+* LayerState - The state of a visualization layer: what data/subset is attached, and styling/display state
 
 
 When creating a new data viewer, this `template file <https://github.com/jk31768/glue-statistics/blob/master/dataviewertemplate.py>`_ can help: 
